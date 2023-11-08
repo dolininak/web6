@@ -1,3 +1,5 @@
+window.addEventListener('DOMContentLoaded', function (event) {
+  console.log("DOM fully loaded and parsed");
 var kol=document.getElementById('kol');
 const outputNode=document.querySelector('.js-output');
 var konf=document.getElementById('konf');
@@ -47,4 +49,4 @@ for(const input of inputs){
         outputNode.innerHTML="ИТОГО:"+totalPrice;}
     });
 }
-
+});
